@@ -3,10 +3,9 @@ const cors = require("cors");
 const HTTP_CONSTANTS = require("http2").constants;
 const fiends = require("./friends.json");
 
-const { KEYCLOAK_PUBLIC_KEY } = require("./config");
 const PORT = 4020;
 const app = express();
-const keycloakMidleware = require("./midleware.keycloak")(KEYCLOAK_PUBLIC_KEY);
+const keycloakMidleware = require("./midleware.keycloak");
 
 app.use(cors());
 app.get("/friends", keycloakMidleware(), async (req, res) => {

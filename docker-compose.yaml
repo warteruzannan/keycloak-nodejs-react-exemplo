@@ -63,7 +63,9 @@ services:
 
   ##############################################
   ##############################################
-  keycloak:
+  keycloak-host:
+    container_name: keycloak-host
+    hostname: keycloak-host
     image: quay.io/keycloak/keycloak:latest
     environment:
       KEYCLOAK_USER: admin

@@ -1,4 +1,4 @@
 [
-  { "username": "Maria", "family_name": "Silva" },
-  { "username": "Caludio", "family_name": "Junior" }
+  { "name": "Maria", "family_name": "Silva" },
+  { "name": "Caludio", "family_name": "Junior" }
 ]
