@@ -1,4 +1,4 @@
-# Exemplos de Integração do ReactJS, Keycloack e Nodejs :green_heart::package:
+# Exemplos de Integração do ReactJS, Keycloack e Nodejs :red_heart::
 
 Esse repositório tem um exemplo de como integrar o ReactJS, NodeJS e Keycloak.
 
